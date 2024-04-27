@@ -11,4 +11,5 @@
 - systemctl start prometheus
 - systemctl status prometheus
 
+# How to install Prometheus server on Linux: 
 https://www.youtube.com/watch?v=7Nnzu3IK6kE
