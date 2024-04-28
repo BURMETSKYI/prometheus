@@ -12,6 +12,9 @@
 - useradd -rs /bin/false proemetheus
 - chown prometheus:prometheus /usr/bin/prometheus
 - chown -R prometheus:prometheus /etc/prometheus
+- chown prometheus:prometheus /etc/prometheus/prometheus.yml
+- chown prometheus:prometheus /etc/prometheus/data
+
 - micro /etc/systemd/system/prometheus.srervice
   
 - systemctl daemon-reload # reboot systemctl daemon
